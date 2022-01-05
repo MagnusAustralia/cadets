@@ -1,0 +1,22 @@
+.nav {
+	position: absolute;
+	width: 100vw;
+	height: 124px;
+	left: 0px;
+	top: 0px;
+	z-index: 0;
+	background: #25a3cb;
+}
+
+.else {
+	z-index: 1;
+}
+
+.list {
+	list-style-type: none;
+}
+
+.li {
+	float: left;
+	margin-right: 50px;
+}
