@@ -14,7 +14,7 @@ function MyLink(props) {
 
 function Nav() {
 	return (
-		<div className="absolute w-screen h-32 left-0 top-0 z-0 bg-sky-500">
+		<div className="absolute w-full h-32 left-0 top-0 z-0 bg-sky-500">
 			<div className={styles.title}>
 				<h1 className="sm:text-left md:text-center py-10 text-3xl font-bold text-gray-50">
 					229 Squadron
