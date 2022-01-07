@@ -18,11 +18,15 @@ function Nav() {
 			<h1 className="text-center py-10 text-3xl font-bold text-gray-50">
 				229 Squadron
 			</h1>
-			<div className="absolute top-5 right-5">
+			<div className="absolute top-5 right-5 px-2">
 				<div className="relative inline-block text-right">
 					<Menu>
-						<Menu.Button className="inline-flex justify-center w-50px rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 ">
-							<GiHamburgerMenu />
+						<Menu.Button className="inline-flex justify-center w-50px px-4 py-4 text-gm font-medium text-gray-700 h-full">
+							<GiHamburgerMenu
+								color="white"
+								fontSize="3em"
+								className={styles.Button}
+							/>
 						</Menu.Button>
 						<Menu.Items>
 							<Menu.Item className="text-gray-700 block px-4 py-2 text-lg bg-gray-50">
