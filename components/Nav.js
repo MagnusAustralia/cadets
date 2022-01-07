@@ -15,9 +15,11 @@ function MyLink(props) {
 function Nav() {
 	return (
 		<div className="absolute w-screen h-32 left-0 top-0 z-0 bg-sky-500">
-			<h1 className="text-center py-10 text-3xl font-bold text-gray-50">
-				229 Squadron
-			</h1>
+			<div className={styles.title}>
+				<h1 className="sm:text-left md:text-center py-10 text-3xl font-bold text-gray-50">
+					229 Squadron
+				</h1>
+			</div>
 			<div className="absolute top-5 right-5 px-2">
 				<div className="relative inline-block text-right">
 					<Menu>
