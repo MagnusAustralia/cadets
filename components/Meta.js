@@ -14,10 +14,11 @@ const Meta = ({ title, keywords, description, favicon }) => {
 };
 
 Meta.defaultProps = {
-	title: "William Portfolio",
-	keywords: "portfolio, projects, learn numbers, math, education, pi",
-	description: "A portfolio to link to all of my projects",
-	favicon: "/dark-mode.svg",
+	title: "Cadets 229",
+	keywords:
+		"cadets, squadron, ATC, air, plane, activity, club, farnham, military",
+	description: "A place to learn more about squadron 229",
+	favicon: "/favicon.svg",
 };
 
 export default Meta;
