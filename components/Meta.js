@@ -3,7 +3,7 @@ import Head from "next/head";
 const Meta = ({ title, keywords, description, favicon }) => {
 	return (
 		<Head>
-			<link rel="icon" href={favicon} className="h-2" />
+			<link rel="icon" href={favicon} type="image/x-icon" />
 			<meta name="viewport" content="width=device-width initial-scale=1" />
 			<meta name="keywords" content={keywords} />
 			<meta name="description" content={description} />
