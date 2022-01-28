@@ -35,16 +35,16 @@ function Nav() {
 								<MyLink href="/">Home</MyLink>
 							</Menu.Item>
 							<Menu.Item className="text-gray-700 block px-4 py-2 text-lg bg-gray-50">
-								<MyLink href="/calendar">Calendar</MyLink>
+								<MyLink href="/what-we-do">What We Do</MyLink>
 							</Menu.Item>
 							<Menu.Item className="text-gray-700 block px-4 py-2 text-lg bg-gray-50">
-								<MyLink href="/media">Media</MyLink>
+								<MyLink href="/meet-the-team">Meet The Team</MyLink>
 							</Menu.Item>
 							<Menu.Item className="text-gray-700 block px-4 py-2 text-lg bg-gray-50">
-								<MyLink href="/staff">Staff</MyLink>
+								<MyLink href="/merchandise">Merchandise</MyLink>
 							</Menu.Item>
 							<Menu.Item className="text-gray-700 block px-4 py-2 text-lg bg-gray-50">
-								<MyLink href="/contact">Contact</MyLink>
+								<MyLink href="/contact-us">Contact Us</MyLink>
 							</Menu.Item>
 						</Menu.Items>
 					</Menu>
