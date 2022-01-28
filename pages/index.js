@@ -1,18 +1,18 @@
 import Image from "next/image";
-import BgImg from "/public/placeholder.png";
+// import BgImg from "../public/placeholder.png";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
 	return (
 		<div className="">
 			<div className="z-0 top-0 right-0 absolute">
-				<Image
+				{/* <Image
 					src={BgImg}
 					alt="Background Image"
 					width="1980px"
 					height="850px"
 					className="mb-[256]"
-				/>
+				/> */}
 			</div>
 			<div className="mt-[512px]"></div>
 			<div className={styles.slantedDiv}>
