@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap");
+
 .nav {
 	position: absolute;
 	width: 100vw;
@@ -6,6 +8,10 @@
 	top: 0px;
 	z-index: 0;
 	background: #25a3cb;
+}
+
+.Font {
+	font-family: "Dongle", sans-serif;
 }
 
 .else {
