@@ -1,6 +1,5 @@
-import Head from "next/head";
 import Image from "next/image";
-import BgImg from "../public/placeholder.png";
+import BgImg from "/public/placeholder.png";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
