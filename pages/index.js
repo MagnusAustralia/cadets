@@ -45,7 +45,7 @@ export default function Home() {
 					</section>
 				</div>
 			</div>
-			<div>
+			<div className="mt-20">
 				<h1>UP COMING EVENTS</h1>
 			</div>
 		</div>

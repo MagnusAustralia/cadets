@@ -73,39 +73,3 @@ function Nav() {
 }
 
 export default Nav;
-
-// import ActiveLink from "./ActiveLink";
-
-// const Nav = () => {
-// 	<nav>
-// 		<ul className="nav">
-// 			<li>
-// 				<ActiveLink activeClassName={styles.active} href="/">
-// 					<a className="">Home</a>
-// 				</ActiveLink>
-// 			</li>
-// 			<li>
-// 				<ActiveLink activeClassName={styles.active} href="/contact-us">
-// 					<a className="">Contact</a>
-// 				</ActiveLink>
-// 			</li>
-// 			{/* <li>
-// 				<ActiveLink activeClassName={styles.active}>
-// 					<a href=""></a>
-// 				</ActiveLink>
-// 			</li>
-// 			<li>
-// 				<ActiveLink activeClassName={styles.active}>
-// 					<a href=""></a>
-// 				</ActiveLink>
-// 			</li>
-// 			<li>
-// 				<ActiveLink activeClassName={styles.active}>
-// 					<a href=""></a>
-// 				</ActiveLink>
-// 			</li> */}
-// 		</ul>
-// 	</nav>;
-// };
-
-// export default Nav;
