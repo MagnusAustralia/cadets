@@ -1,20 +1,19 @@
 import Image from "next/image";
-// import BgImg from "../public/placeholder.png";
+import BgImg from "../public/placeholder.png";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
 	return (
 		<div className="">
 			<div className="z-0 top-0 right-0 absolute">
-				{/* <Image
+				<Image
 					src={BgImg}
 					alt="Background Image"
-					width="1980px"
-					height="850px"
-					className="mb-[256]"
-				/> */}
+					height="900"
+					className="mb-[256] w-screen"
+				/>
 			</div>
-			<div className="mt-[512px]"></div>
+			<div className="mt-[570px]"></div>
 			<div className={styles.slantedDiv}>
 				<div className="grid gap-1/3 p-4">
 					<h1>Get Social</h1>

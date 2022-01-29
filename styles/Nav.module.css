@@ -9,11 +9,6 @@
 	z-index: 0;
 	background: #25a3cb;
 }
-
-.Font {
-	font-family: "Dongle", sans-serif;
-}
-
 .else {
 	z-index: 1;
 }
@@ -25,6 +20,11 @@
 .li {
 	float: left;
 	margin-right: 50px;
+}
+
+.active {
+	padding: 20px;
+	background: red;
 }
 
 @media screen and (max-width: 390px) {
