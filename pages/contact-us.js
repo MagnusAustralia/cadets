@@ -1,5 +1,7 @@
 import React from "react";
 import styles from "../styles/Contact.module.css";
+import Image from "next/image";
+import BgImg from "../public/placeholder.png";
 import {
 	FaEnvelope,
 	FaPhoneAlt,
@@ -11,12 +13,20 @@ import {
 const contact = () => {
 	return (
 		<div>
-			<section>
-				<div></div>
+			<section className="flex gap-24">
 				<div>
-					<div className="">
+					<Image
+						src={BgImg}
+						alt="Background Image"
+						height="640"
+						width="1000"
+						className="mb-[256] rounded-3xl"
+					/>
+				</div>
+				<div>
+					<div className="font-bold text-5xl leading-loose">
 						<h1>Located At</h1>
-						<p>
+						<p className=" text-4xl leading-loose">
 							Territorial Army Center,
 							<br />
 							Guildford RD, Farnham
@@ -25,10 +35,10 @@ const contact = () => {
 						</p>
 					</div>
 					<br />
-					<div className="">
-						<h1>Parade Evenings</h1>
-						<p>Tuesday 19:00 - 21:30</p>
-						<p>Friday 19:00 - 21:30</p>
+					<div className="font-bold text-5xl">
+						<h1 className=" text-5xl leading-loose">Parade Evenings</h1>
+						<p className=" text-4xl leading-loose">Tuesday 19:00 - 21:30</p>
+						<p className=" text-4xl leading-loose">Friday 19:00 - 21:30</p>
 					</div>
 				</div>
 			</section>
@@ -36,39 +46,43 @@ const contact = () => {
 				<hr className="border-[2px] h-0" />
 				<div className="flex justify-evenly p-6">
 					<section>
-						<h1>Contact Us</h1>
+						<h1 className="text-5xl">Contact Us</h1>
+						<br />
 						<div className="flex">
 							<a className="self-center">
-								<FaEnvelope />
+								<FaEnvelope size={170} />
 							</a>
-							<span>229@aircadets.ord</span>
+							<span className="self-center text-5xl">229@aircadets.ord</span>
 						</div>
 						<div className="flex">
 							<a className="self-center">
-								<FaPhoneAlt />
+								<FaPhoneAlt size={170} />
 							</a>
-							<span>01252721810</span>
+							<span className="self-center text-5xl">01252721810</span>
 						</div>
 					</section>
 					<section>
-						<h1>Social Media</h1>
+						<h1 className="text-5xl">Social Media</h1>
+						<br />
 						<div className="flex">
 							<a className="self-center">
-								<FaFacebookSquare />
+								<FaFacebookSquare size={170} />
 							</a>
-							<span>229 (Farnham) sqn atc</span>
+							<span className="self-center text-5xl">
+								229 (Farnham) sqn atc
+							</span>
 						</div>
 						<div className="flex">
 							<a className="self-center">
-								<FaInstagram />
+								<FaInstagram size={170} />
 							</a>
-							<span>@229sqn</span>
+							<span className="self-center text-5xl">@229sqn</span>
 						</div>
 						<div className="flex">
 							<a className="self-center">
-								<FaTwitter />
+								<FaTwitter size={170} />
 							</a>
-							<span>@229sqn</span>
+							<span className="self-center text-5xl">@229sqn</span>
 						</div>
 					</section>
 				</div>

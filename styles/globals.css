@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Poppins:wght@500&display=swap");
 
 html,
 body {
@@ -21,6 +22,7 @@ a {
 
 * {
 	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
 }
 
 .active {
