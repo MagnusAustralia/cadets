@@ -7,16 +7,13 @@ import {
 	FaInstagram,
 	FaTwitter,
 } from "react-icons/fa";
-import Map from "../components/Map";
 
 const contact = () => {
 	return (
 		<div>
 			<section>
-				<div className="map">
-					<Map />
-				</div>
-				<div className="text">
+				<div></div>
+				<div>
 					<div className="">
 						<h1>Located At</h1>
 						<p>
