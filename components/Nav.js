@@ -17,7 +17,7 @@ function Nav() {
 	var activated = styles.active;
 
 	return (
-		<nav className="absolute w-full h-32 left-0 top-0 z-10 pb-64 text-5xl flex px-3 py-3 justify-evenly">
+		<nav className="absolute w-full h-32 left-0 top-0 z-10 pb-64 sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl flex px-3 py-3 justify-evenly">
 			<MyLink href="/">
 				<h1
 					className={
