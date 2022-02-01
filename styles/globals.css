@@ -28,3 +28,7 @@ a {
 .active {
 	background: red;
 }
+
+.map {
+	height: 5vh;
+}

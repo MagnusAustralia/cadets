@@ -14,12 +14,12 @@ const contact = () => {
 	return (
 		<div>
 			<section className="flex gap-24">
-				<div>
+				<div
+					style={{ position: "relative", width: "1000px", height: "68.5vh" }}>
 					<Image
 						src={BgImg}
-						alt="Background Image"
-						height="640"
-						width="1000"
+						layout="fill"
+						objectFit="cover"
 						className="mb-[256] rounded-3xl"
 					/>
 				</div>
