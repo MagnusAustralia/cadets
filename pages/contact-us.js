@@ -24,9 +24,9 @@ const contact = () => {
 					/>
 				</div>
 				<div>
-					<div className="font-bold text-5xl leading-loose">
+					<div className="font-bold text-4xl leading-loose">
 						<h1>Located At</h1>
-						<p className=" text-4xl leading-loose">
+						<p className=" text-3xl leading-loose">
 							Territorial Army Center,
 							<br />
 							Guildford RD, Farnham
@@ -35,10 +35,10 @@ const contact = () => {
 						</p>
 					</div>
 					<br />
-					<div className="font-bold text-5xl">
-						<h1 className=" text-5xl leading-loose">Parade Evenings</h1>
-						<p className=" text-4xl leading-loose">Tuesday 19:00 - 21:30</p>
-						<p className=" text-4xl leading-loose">Friday 19:00 - 21:30</p>
+					<div className="font-bold text-4xl">
+						<h1 className=" text-4xl leading-loose">Parade Evenings</h1>
+						<p className=" text-3xl leading-loose">Tuesday 19:00 - 21:30</p>
+						<p className=" text-3xl leading-loose">Friday 19:00 - 21:30</p>
 					</div>
 				</div>
 			</section>
