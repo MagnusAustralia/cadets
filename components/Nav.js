@@ -22,8 +22,8 @@ function Nav() {
 				<h1
 					className={
 						router.pathname == "/"
-							? "active px-[10px] py-[10px]"
-							: "px-[10px] py-[10px]"
+							? "active px-[10px] py-[10px] link"
+							: "px-[10px] py-[10px] link"
 					}>
 					Home
 				</h1>
@@ -32,8 +32,8 @@ function Nav() {
 				<h1
 					className={
 						router.pathname == "/what-we-do"
-							? "active px-[10px] py-[10px]"
-							: "px-[10px] py-[10px]"
+							? "active px-[10px] py-[10px] link"
+							: "px-[10px] py-[10px] link"
 					}>
 					What We Do
 				</h1>
@@ -42,8 +42,8 @@ function Nav() {
 				<h1
 					className={
 						router.pathname == "/meet-the-team"
-							? "active px-[10px] py-[10px]"
-							: "px-[10px] py-[10px]"
+							? "active px-[10px] py-[10px] link"
+							: "px-[10px] py-[10px] link"
 					}>
 					Meet The Team
 				</h1>
@@ -52,8 +52,8 @@ function Nav() {
 				<h1
 					className={
 						router.pathname == "/merchandise"
-							? "active px-[10px] py-[10px]"
-							: "px-[10px] py-[10px]"
+							? "active px-[10px] py-[10px] link"
+							: "px-[10px] py-[10px] link"
 					}>
 					Merchandise
 				</h1>
@@ -62,8 +62,8 @@ function Nav() {
 				<h1
 					className={
 						router.pathname == "/contact-us"
-							? "active px-[10px] py-[10px]"
-							: "px-[10px] py-[10px]"
+							? "active px-[10px] py-[10px] link"
+							: "px-[10px] py-[10px] link"
 					}>
 					Contact Us
 				</h1>

@@ -6,12 +6,7 @@ export default function Home() {
 	return (
 		<div className="">
 			<div className="z-0 top-0 right-0 absolute">
-				<Image
-					src={BgImg}
-					alt="Background Image"
-					height="900"
-					className="mb-[256] w-screen"
-				/>
+				<Image src={BgImg} alt="Background Image" className="image" />
 			</div>
 			<div className="mt-[570px]"></div>
 			<div className={styles.slantedDiv}>

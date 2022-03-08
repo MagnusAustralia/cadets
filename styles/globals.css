@@ -51,17 +51,23 @@ a {
 
 * {
 	box-sizing: border-box;
-	font-family: "Myriad Pro Light";
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .active {
-	background: red;
+	background: #d7072a;
 }
 
 .map {
 	height: 5vh;
 }
 
-h1 {
-	font-family: "Franklin Gothic Medium";
+.link {
+	font-family: "Myriad Pro Light", "Segoe UI", Tahoma, Geneva, Verdana,
+		sans-serif;
+}
+
+.image {
+	width: 100vw;
+	margin-bottom: 30%;
 }

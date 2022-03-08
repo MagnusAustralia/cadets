@@ -18,7 +18,7 @@ Meta.defaultProps = {
 	keywords:
 		"cadets, squadron, ATC, air, plane, activity, club, farnham, military",
 	description: "A place to learn more about squadron 229",
-	favicon: "/Artboard 2 copy 5@4x.png",
+	favicon: "/Artboard-2-copy-5_4x.ico",
 };
 
 export default Meta;
