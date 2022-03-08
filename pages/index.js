@@ -5,8 +5,8 @@ import styles from "../styles/Home.module.css";
 export default function Home() {
 	return (
 		<div className="">
-			<div className="z-0 top-0 right-0 absolute">
-				<Image src={BgImg} alt="Background Image" className="image" />
+			<div className="z-0 top-0 left-0 absolute w-full">
+				<Image src={BgImg} alt="Background Image" className="image w-full" />
 			</div>
 			<div className="mt-[570px]"></div>
 			<div className={styles.slantedDiv}>

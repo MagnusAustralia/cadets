@@ -68,6 +68,7 @@ a {
 }
 
 .image {
-	width: 100vw;
 	margin-bottom: 30%;
+	max-width: 100%;
+	height: auto;
 }
