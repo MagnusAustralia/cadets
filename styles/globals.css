@@ -1,7 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Poppins:wght@500&display=swap");
+
+@font-face {
+	font-family: "Myriad Pro Light";
+	src: url("//db.onlinewebfonts.com/t/f74ee7cbb191e486e9551cdada1999ed.eot");
+	src: url("//db.onlinewebfonts.com/t/f74ee7cbb191e486e9551cdada1999ed.eot?#iefix")
+			format("embedded-opentype"),
+		url("//db.onlinewebfonts.com/t/f74ee7cbb191e486e9551cdada1999ed.woff2")
+			format("woff2"),
+		url("//db.onlinewebfonts.com/t/f74ee7cbb191e486e9551cdada1999ed.woff")
+			format("woff"),
+		url("//db.onlinewebfonts.com/t/f74ee7cbb191e486e9551cdada1999ed.ttf")
+			format("truetype"),
+		url("//db.onlinewebfonts.com/t/f74ee7cbb191e486e9551cdada1999ed.svg#Myriad Pro Light")
+			format("svg");
+}
+
+@font-face {
+	font-family: "Franklin Gothic Medium";
+	src: url("//db.onlinewebfonts.com/t/a8d23046bc8d38ee78b38e95ec47f9e5.eot");
+	src: url("//db.onlinewebfonts.com/t/a8d23046bc8d38ee78b38e95ec47f9e5.eot?#iefix")
+			format("embedded-opentype"),
+		url("//db.onlinewebfonts.com/t/a8d23046bc8d38ee78b38e95ec47f9e5.woff2")
+			format("woff2"),
+		url("//db.onlinewebfonts.com/t/a8d23046bc8d38ee78b38e95ec47f9e5.woff")
+			format("woff"),
+		url("//db.onlinewebfonts.com/t/a8d23046bc8d38ee78b38e95ec47f9e5.ttf")
+			format("truetype"),
+		url("//db.onlinewebfonts.com/t/a8d23046bc8d38ee78b38e95ec47f9e5.svg#Franklin Gothic Medium")
+			format("svg");
+}
 
 html,
 body {
@@ -22,7 +51,7 @@ a {
 
 * {
 	box-sizing: border-box;
-	font-family: "Poppins", sans-serif;
+	font-family: "Myriad Pro Light";
 }
 
 .active {
@@ -31,4 +60,8 @@ a {
 
 .map {
 	height: 5vh;
+}
+
+h1 {
+	font-family: "Franklin Gothic Medium";
 }
