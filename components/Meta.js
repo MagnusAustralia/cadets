@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { useState, useEffect } from "react";
 
 const Meta = ({ title, keywords, description, favicon }) => {
 	return (
@@ -18,7 +19,7 @@ Meta.defaultProps = {
 	keywords:
 		"cadets, squadron, ATC, air, plane, activity, club, farnham, military",
 	description: "A place to learn more about squadron 229",
-	favicon: "/Favico.ico",
+	favicon: "/Favico2.ico",
 };
 
 export default Meta;

@@ -73,7 +73,7 @@
 
 .slantedDiv {
 	position: absolute;
-	margin-top: 300px;
+	margin-top: 100vh;
 	left: 0;
 	padding: 50px 0;
 	background: #5482ab;
